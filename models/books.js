@@ -11,6 +11,7 @@ const bookSchema = new mongoose.Schema({
   })
 
   module.exports = mongoose.model('Book', bookSchema)
+  module.exports = Book
 
   //question on id: since it doesn't need a type does it need []
   
