@@ -3,13 +3,13 @@
 
 # Routes
 
-| HTTP   | Endpoints        | Purpose    |
-| -----  | -----------------| ---------- |
-| GET    | /                | Home page  |
-| GET    | /books           | Index page listing all books  |
-| PATCH  | /books/update    | Update book|
-| DELETE | /books/:id       | Delete book|
-| POST   | /books           | Add book|
+| HTTP    | Endpoints        | Purpose    |
+| ------  | -----------------| ---------- |
+| GET     | /                | Home page  |
+| GET     | /books           | Index page listing all books  |
+| PATCH/PUT  | /books/:id    | Update book|
+| DELETE  | /books/:id       | Delete book|
+| POST    | /books           | Add book|
 
 # Database
 
