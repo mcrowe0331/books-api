@@ -12,6 +12,14 @@ router.get('/new', (req, res) => {
 router.get('/:id', (req, res) => {
     res.render('books/show', { book })
 })
+
+router.put('/:id', (req, res) => {
+
+})
+
+router.delete('/:id', (req, res) => {
+    res.redirect('/books')
+})
 module.exports = router
 
 

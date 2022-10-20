@@ -13,7 +13,11 @@
 
 # Database
 
-| Field | Type |
-| ----- | -----|
-| _id   | Object ID |
-| title | String |
+| Field  | Type  |
+| ------ | ----- |
+| _id    | Object ID |
+| title  | String |
+| description | String |
+| year   | Number |
+| quantity | Number |
+| imageURL | String |
