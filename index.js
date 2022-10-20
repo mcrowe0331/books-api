@@ -3,7 +3,7 @@ require('dotenv').config()
 const express = require('express')
 const app = express()
 
-// Express Settings
+// Controllers & Routes
 app.use(express.json())
 app.use('/books', require('./controllers/books'))
 
@@ -12,7 +12,7 @@ app.get('/', (req, res)=> {
 })
 
 app.get('*', (req,res) => {
-    res.status(404).send('<h1>404 Page</h1>')
+    res.send('error404')
 })
 
 app.listen(process.env.PORT, () => {

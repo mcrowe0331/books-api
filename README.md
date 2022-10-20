@@ -5,7 +5,8 @@
 
 | HTTP   | Endpoints        | Purpose    |
 | -----  | -----------------| ---------- |
-| GET    | /books           | Home Page  |
+| GET    | /                | Home page  |
+| GET    | /books           | Index page listing all books  |
 | PATCH  | /books/update    | Update book|
 | DELETE | /books/:id       | Delete book|
-| POST   | /books           | Create book|
+| POST   | /books           | Add book|
